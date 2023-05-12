@@ -1,0 +1,61 @@
+body {
+    margin: 0;
+}
+#title {
+        position: -webkit-sticky; 
+        position: sticky;
+        top: 0;
+}
+#nav{
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 66px;
+    background-color: rgba(3, 3, 3, 0.801);
+    text-align: center;
+}
+#icon {
+    position: absolute;
+    display: inline-block;
+    bottom: 0;
+    left: 45%;
+}
+#header {
+    display: fixed;
+    border-style: solid;
+    height: 300px;
+}
+.hpic{
+    border-radius: 10%;
+    float: left;
+    margin-right: 30px;
+}
+#intro {
+   left: 420px; 
+}
+.friendly {
+   float: right;
+   margin-top: -70px;
+}
+.hr-1 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-top: 6px dotted ;
+    width: 70%;
+}
+#showachive {
+    display: flex;
+}
+#icon a img {
+    width: 65px;
+    height: 65px;
+    margin-left: 20px;
+}
+#showachive-1 {
+    display: flex;
+}
+
+
+
+
+
